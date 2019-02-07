@@ -1,0 +1,36 @@
+.form .input{
+    display: block;
+}
+.container{
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    cursor: pointer;
+}
+img{
+    max-width: 150px;
+    min-width: 100px;
+}
+.header{ 
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 10px;
+    position: relative;
+    float: left;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: auto 2px;
+}
+.grid{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 2fr 1fr;
+}
+.player{
+   margin:20px 0px;
+}
+@media screen and (max-width:1001px) {
+  .grid{
+    display: block;
+  }
+}
